@@ -16,7 +16,7 @@ B. The figure illustrates the seven nociceptor-activated CNS regions identified 
 2) Put the downloaded data in the folder 'test_data'. (If there is no folder with name 'test_data', create one.)
 3) Run the script 'test.m'. (It takes 10~15 minutes on a PC with Core i5-6600 @ 3.30GHz CPU. MATLAB 2017a or later should be all compatible and the Image Processing Toolbox in matlab is needed.) 
 
-## Please refer our paper if you find the code useful for your research.
+## Please refer to our paper if you find the code useful for your research.
 Yujia Hu, Congchao Wang, Limin Yang, Geng Pan, Hao Liu, Guoqiang Yu, and Bing Ye, A Neural Basis for Categorizing Sensory Stimuli to Enhance Decision Accuracy. (to be appeared on Current Biology)
 
 # Reference
