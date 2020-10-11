@@ -18,10 +18,13 @@ load('test_data/test_sample_data.mat');
 
 % start test
 phase_one_length = 5; 
+tic;
 alignedResMap = VNC_response_map_generating(test_sample_anatomical_data, ...
     test_sample_activity_data, stimulus_frame, template_anatomical, ...
     phase_one_length);
+toc;
 % display results
+load('src/lut_response_level.mat');
 HeatMapShow(alignedResMap, LUTHeatMap);
 
 
