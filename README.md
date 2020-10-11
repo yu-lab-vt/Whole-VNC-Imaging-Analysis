@@ -1,4 +1,4 @@
-# Whole-VNC Functional Imaging Analysis Framework
+# Whole-VNC Functional Imaging Analysis
 This reposityory is a unbiased computational approach for the whole-VNC functional imaging data analysis. For a given calcium neural activity imaging data, it quantifies the probability that a voxel's fluorescence change is due to real calcium signal rather than noise, to measure the fluorescence response of it. This resultant z-score-based response map is comparable across different samples. Based on the response maps from a large amount of samples, we identify severn decision-associated central nervous system (CNS) regions in Drosophila Larva ventral nerve cord (VNC) which are higly correlated to noxious stimuli, experiments on which help to understand how graded encodings of noxious stimuli in Larvea CNS are converted to binary escape decisions. For more details, please refer to our paper (to be appeared on Current Biology).
 
 ## Overview of the framework
