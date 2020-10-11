@@ -10,6 +10,7 @@ else
     fprintf('After downloading, put them in the folder of ''test_data''.\n');
     return;
 end
+addpath(genpath('./'));
 % load template data
 load('test_data/template_anatomical_data.mat');
 % load sample data
